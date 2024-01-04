@@ -5,7 +5,7 @@ from keras.models import load_model
 import streamlit as st
 import matplotlib.pyplot as plt
 
-model = load_model('E:\ml projects\Machine Learning Project in Python to Predict Stock Price\New folder\app.py')
+model = load_model('google_stock_price/app.py')
 
 st.header('Stock Market Predictor')
 
